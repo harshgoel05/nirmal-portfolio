@@ -1,0 +1,12 @@
+.image-nirmal{
+    position:fixed;
+}
+@media only screen and (max-width: 600px) {
+    .image-nirmal{
+        position: relative;
+    }
+  }
+.text-white{
+    background-color: black;
+    color:whitesmoke;
+}
