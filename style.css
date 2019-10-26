@@ -1,12 +1,36 @@
+@font-face {
+    font-family: Water;
+    src: url('./world-of-water/world\ of\ water.ttf');
+  }
+@font-face {
+    font-family: Segan;
+    src: url('./segan/Segan-Light.ttf');
+  }
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 .image-nirmal{
-    position:fixed;
+    width: 50%;
+    position: fixed;
 }
 @media only screen and (max-width: 600px) {
     .image-nirmal{
-        position: relative;
+        position: static;
+        width: 100%;
     }
   }
-.text-white{
-    background-color: black;
-    color:whitesmoke;
+
+.heading{
+    font-family: Water;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.textcol{
+    font-size: 17px;
+    padding-right: 30px;
+    padding-top: 60px;
+    font-family: Segan;
+    font-weight:300;
+
 }
